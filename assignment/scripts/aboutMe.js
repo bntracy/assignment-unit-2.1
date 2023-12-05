@@ -134,7 +134,8 @@ console.log(luckyResult);
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
-
+adventurous ? result = 'Adventures are great!' : result = 'How about we stay home?';
+console.log(result);
 
 
 
