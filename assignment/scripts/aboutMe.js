@@ -98,6 +98,14 @@ console.log(petStatus);
 //      assigns the highest value to `mostPets`. There's several possibilities --
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
+let mostPets;
+pets = 1; // added two earlier, now resetting it to the correct number
+if (pets >= friendsPets) {
+  mostPets = pets;
+} else {
+  mostPets = friendsPets;
+}
+console.log("mostPets:", mostPets);
 
 // 16 - Make a variable called `luckyResult`
 //      Write a *switch* statement that sets `luckyResult` to:
