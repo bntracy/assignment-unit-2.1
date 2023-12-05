@@ -80,6 +80,7 @@ console.log(diceRoll);
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
 
+pets = 1; // added two earlier, now resetting it to the correct number
 let petStatus;
 if (pets < allowedPets) {
   petStatus = 'I can have more pets';
@@ -99,7 +100,6 @@ console.log(petStatus);
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
 let mostPets;
-pets = 1; // added two earlier, now resetting it to the correct number
 if (pets >= friendsPets) {
   mostPets = pets;
 } else {
